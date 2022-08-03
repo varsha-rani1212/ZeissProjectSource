@@ -33,6 +33,8 @@ namespace Zeiss.Payslip
             empBL = empBL.GetEmployeeDetails("M100232");
             Console.WriteLine(empBL.empID + "  " + empBL.FirstName + "  " + empBL.LastName);
             Console.WriteLine("Date of Joining: " + empBL.DOJ);
+
+            Console.WriteLine("Basic Pay:");
         }
     }
 }
